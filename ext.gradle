@@ -1,0 +1,47 @@
+ext{
+    compileSdkVersion= 23//
+    buildToolsVersion='23.0.2'
+    minSdkVersion = 14
+    targetSdkVersion = 22
+    support = '23.4.0'
+
+
+    okhttp = "3.2.0"
+    loggingInterceptor = "3.2.0"
+    //网络请求封装
+    retrofit = "2.0.0"
+    retrofitOkhttpUrlconnection = okhttp
+    retrofitConverterGson = retrofit
+    retrofitAdapterRxjava = retrofit
+
+    glide = "3.6.1"
+    glideOkhttpIntegration = "1.3.1"
+    glideTransformations = "1.3.1"
+
+    rxJava = "1.1.5"
+
+    rxAndroid = "1.2.0"
+    rxbinding = "0.4.0"
+
+    butterknife = "7.0.1"
+
+    // 网络请求
+    libokhttp = "com.squareup.okhttp3:okhttp:$okhttp"
+    libloggingInterceptor = "com.squareup.okhttp3:logging-interceptor:$loggingInterceptor"
+
+    // API 请求
+    libretrofit = "com.squareup.retrofit2:retrofit:$retrofit"
+    libretrofitOkhttpUrlconnection = "com.squareup.okhttp3:okhttp-urlconnection:$retrofitOkhttpUrlconnection"
+    libretrofitConverterGson = "com.squareup.retrofit2:converter-gson:$retrofitConverterGson"
+    libretrofitAdapterRxjava = "com.squareup.retrofit2:adapter-rxjava:$retrofitAdapterRxjava"
+
+    libglide = "com.github.bumptech.glide:glide:$glide"
+    libglideOkhttpIntegration = "com.github.bumptech.glide:okhttp-integration:$glideOkhttpIntegration"
+    libglideTransformations = "jp.wasabeef:glide-transformations:$glideTransformations"
+
+    librxJava = "io.reactivex:rxjava:$rxJava"
+    librxAndroid = "io.reactivex:rxandroid:$rxAndroid"
+    librxbinding = "com.jakewharton.rxbinding:rxbinding:$rxbinding"
+    libbutterknife = "com.jakewharton:butterknife:$butterknife"
+
+}

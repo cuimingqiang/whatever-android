@@ -1,0 +1,15 @@
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile parent.ext.libokhttp
+    compile parent.ext.libloggingInterceptor
+
+    //网路请求库
+    compile parent.ext.libretrofit
+    compile parent.ext.libretrofitConverterGson
+    compile parent.ext.libretrofitAdapterRxjava
+    compile parent.ext.libretrofitOkhttpUrlconnection
+
+    // rxJava
+    compile parent.ext.librxAndroid
+    //网络请求基类
+}
